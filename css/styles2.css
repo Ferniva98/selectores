@@ -1,0 +1,175 @@
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+
+
+#navegacion {
+  background: #00C10F;
+  color: #000000;
+  overflow: auto;
+}
+#navegacion a {
+ color: #ffffff;
+}
+#navegacion h1 {
+ float: left;
+ padding-top: 20px;
+}
+#navegacion ul {
+ list-style: none;
+ float: right;
+}
+#navegacion ul li{
+ float: left;
+}
+#navegacion ul li a {
+ display: block;
+ padding: 20px;
+ text-align: center;
+}
+#navegacion ul li a:hover,
+#navegacion ul li a.current {
+ border-color: #123fff;
+ background: #006808;
+ color: #000000;
+}
+.cajanav {
+  margin: auto;
+  max-width: 1800px;
+  overflow: auto;
+  padding: 0 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Estilo Menú */
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+h1, h2, h3 {
+  padding-bottom: 20px;
+}
+p {
+  margin: 10px 0;
+}
+
+#welcome {
+  background: url('../imagenes/oso.jpg') no-repeat center center/cover;
+  height: 600px;
+}
+#welcome1 {
+  background: url('../imagenes/fondo.jpg') no-repeat center center/cover;
+  width: 100%;
+  height: 400px;
+}
+#welcome .welcome-content {
+  color: #fff;
+  text-align: justify;
+  padding-top: 170px;
+}
+
+#welcome1 .welcome-content1 {
+  color: #Faa;
+  text-align: justify;
+  padding-top: 20px;
+}
+
+#welcome .welcome-content h1 {
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+#welcome .welcome-content p {
+  padding-bottom: 20px;
+  line-height: 1.7em;
+}
+
+#welcome .container {
+  overflow: hidden !important;
+}
+.text-primary {
+  color:#5BBF21;
+}
+.text-primary1 {
+  color:#152ABC;
+}
+.lead {
+  font-size: 20px;
+}
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #215b33;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #5BBF21;
+}
+.btn-light {
+  background: #f4f4f4;
+  color: #215b33;
+}
+
+.bg-dark {
+  background: #215b33;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #215b33;
+}
+
+.bg-primary {
+  background: #5BBF21;
+  color: #215b33;
+  font-size: 10px;
+}
+
+.clr {
+  clear: both;
+}
+
+.l-heading {
+  font-size: 40px;
+}
+
+.l-heading1 {
+  font-size: 40px;
+  text-align: center;
+  color: #dfe32a;
+}
+
+/* Padding */
+
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
+#Estudios {
+  background-color: #72D87A;
+  height: 600px;
+}
+
+#Estudios table{
+  width: 1200px;
+  CELLPADDING: 20;
+  border-spacing: 20PX;
+
+}
+#Estudios td,th{
+  text-align: center;
+}
+#Estudios img{
+  width: 200px;
+  height: 100px;
+}
